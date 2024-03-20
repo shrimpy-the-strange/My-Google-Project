@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shrimpy The Strange</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@350;400&display=swap" rel="stylesheet">  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Favicon -->
+
+
+    <link rel="icon" href="./favicon.ico">
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<div class="container">
+<header class="navbar-search">
+<nav class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand"></a>
+        <div class="navbar-nav ms-auto items-within even-spacing">
+            <a class="nav-link nav-item-spacing" href="./images.html">IMAGES</a>
+            <div class="menutoaction dropdown nav-link nav-item-spacing">
+                <img class="dropdown-toggle" data-bs-toggle="dropdown" alt="dropdown-apps" src="./images/google-apps-sign.png" aria-expanded="false">
+                <div class="dropdown-menu social-drop">
+                    <div class="pin-truc">
+                        <img src="./images/pin.png">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="social-text">Find me on</p>
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col-xs-4 social-element social-left">
+                            <a target="_blank" href="https://www.facebook.com/daria.tingaeva"><img class="center-block social-logo" border="0" alt="facebook" src="./images/facebook_icon.png">
+                                <p class="social-text">Facebook</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-4 social-element">
+                            <a target="_blank" href="https://www.instagram.com/shrimpy_the_strange/"><img class="center-block social-logo" border="0" alt="instagram" src="./images/instagram_icon.png">
+                                <p class="social-text">Instagram</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-4 social-element">
+                            <a target="_blank" href="https://www.linkedin.com/in/daria-tingaeva-180548208"><img class="center-block social-logo" border="0" alt="linkedin" src="./images/linkedIn_icon.png">
+                                <p class="social-text">LinkedIn</p>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col-xs-4 social-element  social-left">
+                            <a target="_blank" href="https://github.com/shrimpy-the-strange"><img class="center-block social-logo" border="0" alt="github" src="./images/github_logo.png">
+                                <p class="social-text">GitHub</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-4 social-element">
+                            <a target="_blank" href="mailto:shrimpy.the.strange@gmail.com"><img class="center-block social-logo" border="0" alt="email" src="./images/gmail_logo.png">
+                                <p class="social-text">Email</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="contact.html" class="btn btn-primary btn-sm nav-item-spacing">Contact</a>
+        </div>
+</nav>
+</header>
+
+
+
+<!-- Small Google Search Section -->
+
+<div class="container small-search-results-container">
+    <div class="row d-flex align-items-center">
+        <!-- Image column -->
+        <div class="col-auto">
+            <a href="index.html">
+            <img class="google-img-small" src="./images/google_logo.png" alt="google Logo" width="100">
+            </a>
+        </div>
+
+        <!-- Input group column -->
+        <div class="col">
+            <div class="input-group input-group-small mb-3">
+                <input type="text" id="searchInput" class="form-control search-input" value=" who is 大蝦">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button">Search</button>
+                </div>
+            </div>
+            <div class="link-group"> 
+                <a href="./results.html" id="all" class="mx-2 tab-link tab-link-active">All</a>
+                <a href="./images.html" id="images" class="mx-2 tab-link">Images</a>
+                <!-- Make sure the indicator is visible -->
+                <hr id="indicator" class="indicator" style="visibility: visible;">    
+            </div>
+        </div>
+
+<!-- Google Search Results Section -->
+
+<div class="container">
+    <div class="row">
+      <!-- Search Results Column -->
+      <div class="col-md-8">
+        <div class="results-container">
+            <!-- First result-item -->
+            <div class="result-item">
+            <img src="./images/shrimp_pink.png" class="search-results-item-img" alt="shrimp-logo-pink">  
+              <a href="./about.html" class="result-title">About 大蝦</a>
+              <p class="result-url">https://about.com</p>
+              <p class="result-snippet">Eight years ago, my journey began in the dynamic realm of International Property. Along the way, a fascination with technology took root, especially in the magic of Machine...</p>
+            </div>
+          
+            <!-- Second result-item -->
+            <div class="result-item">
+            <img src="./images/shrimp_black.png" class="search-results-item-img" alt="shrimp-logo-black">  
+              <a href="./skills.html" class="result-title">大蝦`s Technical Skills</a>
+              <p class="result-url">https://skills.com</p>
+              <p class="result-snippet">HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, Git.. </p>
+            </div>
+          
+            <!-- Third result-item -->
+            <div class="result-item">
+            <img src="./images/shrimp_white.png" class="search-results-item-img" alt="shrimp-logo-white">  
+              <a href="./projects.html" class="result-title">大蝦`s Projects</a>
+              <p class="result-url">https://projects.com</p>
+              <p class="result-snippet">A bit of my projects: The first step in this journey of a thousand miles, Pets Relocation Layout, Web Design Agency, TinBird App Layout, Drums Set, Simon Game...</p>
+            </div>
+
+            <!-- Forth result-item -->
+            <div class="result-item">
+            <img src="./images/shrimp_pink.png" class="search-results-item-img" alt="shrimp-logo-pink">  
+              <a href="./hobby.html" class="result-title">大蝦`s Hobby</a>
+              <p class="result-url">https://hobby.com</p>
+              <p class="result-snippet">Why do I love cooking? Because when you follow a recipe, you measure the ingredients, you mix them together, and you cook them for the specified time. You don't have...</p>
+                </div>
+          </div>
+          
+        </div>
+     
+      <!-- Information Box Column -->
+      <div class="col-md-4">
+        <!-- Information Box -->
+        <div class="search-result-card">
+        <img src="./images/dasha_imgs/search_results_img.jpg" class="search-results-page-img" alt="search-results-page-img" class="img-fluid">
+        <h2>大蝦</h2>
+        <p class="me-info">Web Developer enthusiast</p>
+        <p class="me-link"><a href="./results.html">google.com</a></p>
+        <p class="me-description">Innovative and task-driven software developer with ability to learn and collaborate in rapidly changing environments and compositions. Eager to tackle web development/design challenges to achieve lasting impacts on user experience.</p> <br>
+        <p class="me-description">Located in: <span style="color: #1a0dab;">Taiwan</span></p>
+        <p class="me-description">Address: <span style="color: #1a0dab;">6F, No. 195, Sec. 1, Dunhua S. Rd., Da-an Dist., Taipei 106236, Taiwan (R.O.C.)</span></p>
+
+        <!-- Metadata... -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+</div>
+</div>
+
+
+</div>
+
+
+<!-- Footer Section -->
+
+<footer class="footer">
+<div class="container-fluid">
+      
+    
+<p class="p-footer">© DashaT 2023</p>
+
+</div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="./index.js"></script>
+</body>
+</html>
+    
